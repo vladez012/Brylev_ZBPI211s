@@ -67,9 +67,9 @@ def bin_search(li, element):
             low = mid 
         else:
             high = mid 
-
-        if(li[mid] != element):
-            return -1
+            
+    if(li[mid] != element):
+        return -1
 
 print("\nЗадача №4: ", bin_search([1, 2, 3, 4, 5.1, 6, 7, 8, 9, 10], 5.1))
 
